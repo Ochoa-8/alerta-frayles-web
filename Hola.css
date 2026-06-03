@@ -89,7 +89,7 @@ body {
   border: 1.5px solid rgba(255, 255, 255, 0.6);
   box-shadow: 0 4px 32px rgba(13, 42, 110, 0.10);
   border-radius: 100px;
-  padding: 12px 28px;
+  padding: 18px 36px;
 }
 
 .tarjeta-vidrio {
@@ -108,22 +108,31 @@ body {
 }
 
 .icono-logo-nav {
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .nav-link {
-  color: var(--texto-bajo) !important;
+  color: var(--texto-bajo) ;
   font-weight: 500;
   transition: color 0.2s;
+  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.05rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .nav-link:hover {
-  color: var(--azul-normal) !important;
+  color: var(--azul-normal);
 }
 
 /* Heroes */
